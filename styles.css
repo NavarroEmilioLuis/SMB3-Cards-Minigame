@@ -1,0 +1,38 @@
+body {
+  width: 512px;
+  position: relative;
+  background-color: white;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div {
+  box-sizing: border-box;
+  position: relative;
+  width: 514px;
+  height: 338px;
+  border: 1px solid black;
+}
+
+canvas {
+  box-sizing: border-box;
+  position: relative;
+}
+
+#selector {
+  box-sizing: border-box;
+  position: absolute;
+  top: 54px;
+  left: 52px;
+  z-index: 1000;
+}
+
+.card {
+  box-sizing: border-box;
+  width: 44px;
+  height: 76px;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
