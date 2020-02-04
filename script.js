@@ -151,7 +151,10 @@ function pickCard() {
   var id = event.target.id;
   if (id === "background")
     return ;
-  if (matched.indexOf(id) !== -1)
+  if (clicked.length >= 1)
+    if (clicked[0].pos === selectorOver)
+      return ;
+  if (matched.indexOf(selectorOver) !== -1)
     return ;
   toggleHandlers();
   id = selectorOver;
