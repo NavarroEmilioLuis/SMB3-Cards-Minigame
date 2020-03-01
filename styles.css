@@ -1,10 +1,15 @@
+@media (max-height: 409px) {
+  body {
+    transform: scale(0.7);
+  }
+}
+
 body {
-  width: 512px;
+  width: 514px;
   position: relative;
   background-color: white;
   text-align: center;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
 }
 
 div {
@@ -21,11 +26,12 @@ canvas {
 }
 
 #selector {
+  display: none;
   box-sizing: border-box;
   position: absolute;
   top: 54px;
   left: 52px;
-  z-index: 1000;
+  z-index: 999;
 }
 
 .card {
@@ -35,4 +41,41 @@ canvas {
   position: absolute;
   top: 0px;
   left: 0px;
+}
+
+img {
+  margin: 15px 0px;
+}
+
+#startscreen {
+  position: absolute;
+  top: 132px;
+  left: 1px;
+  border: 0px;
+  margin: auto;
+}
+
+button {
+  position: absolute;
+  top: 430px;
+  display: none;
+  width: 67px;
+  height: 92px;
+  padding: 0;
+  border: none;
+  background: none;
+}
+
+button:focus {
+  outline: none;
+}
+
+#fxbutton {
+  background: url("Sprites/fxbutton.png") no-repeat;
+  left: 95px;
+}
+
+#bgmbutton {
+  background: url("Sprites/bgmbutton.png") no-repeat;
+  left: 352px;
 }
