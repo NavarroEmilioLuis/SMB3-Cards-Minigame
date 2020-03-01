@@ -6,7 +6,7 @@ A web app recreation of the "N-Mark Spade Panel" (a.k.a. Matching Cards) minigam
 
 **Development**
 
-This project is javascript based and uses canvas to render the game. It is a minimal implementation that recreates the original game and adds support for mouse and touchscreen.
+This project is javascript based and uses canvas to render the game. It is a minimal implementation that recreates the original game with added support for mouse and touchscreen.
 
 **Setup**
 
