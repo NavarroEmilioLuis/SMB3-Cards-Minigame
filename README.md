@@ -1,6 +1,4 @@
-# SMB3-Cards-Minigame
-
-N-Mark Spade Panel
+# N-Mark Spade Panel
 
 Overview
 
