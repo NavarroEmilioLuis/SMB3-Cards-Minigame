@@ -10,4 +10,4 @@ This project is javascript based and uses canvas to render the game. It is a min
 
 **Setup**
 
-To play the game you can clone the repository and run it locally opening the index.html file on your browser.
+To play the game you can download the repository and run it locally opening the index.html file on your browser.
