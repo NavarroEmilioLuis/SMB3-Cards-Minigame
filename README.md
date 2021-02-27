@@ -10,4 +10,6 @@ This project is javascript based and uses canvas to render the game. It leverage
 
 **Setup**
 
-To play the game you can download the repository and run it locally opening the index.html file on your browser.
+To play the game you can:
+- Visit: https://navarroemilioluis.github.io/SMB3-Cards-Minigame/
+- Download the repository and run it locally opening the index.html file on your browser.
