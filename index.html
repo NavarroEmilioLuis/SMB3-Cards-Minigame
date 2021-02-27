@@ -1,26 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/style.css">
     <title>SMB3 N-Mark Spade Panels</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="scripts/levels.js"></script>
   </head>
   <body>
-    <img src="Sprites/title.png" alt="N-Mark Spade Panel">
+    <img src="sprites/title.png" alt="N-Mark Spade Panel">
     <div>
-    <canvas width="514" height="338" id="background"></canvas>
-    <canvas width="56" height="88" id="selector"></canvas>
-    <img src="Sprites/start.png" id="startscreen">
+      <canvas width="514" height="338" id="background"></canvas>
+      <canvas width="56" height="88" id="selector"></canvas>
+      <img src="sprites/start.png" id="startscreen">
     </div>
-    <audio id="fxstart" src="Audio/start.wav" type="audio/wav" preload="auto"></audio>
-    <audio id="bgm" src="Audio/bgm.wav" type="audio/wav" preload="auto" loop></audio>
-    <audio id="fxpick" src="Audio/pick.wav" type="audio/wav" preload="auto"></audio>
-    <audio id="fxmatch" src="Audio/match.wav" type="audio/wav" preload="auto"></audio>
-    <audio id="fxnomatch" src="Audio/noMatch.wav" type="audio/wav" preload="auto"></audio>
-    <audio id="fxcoin" src="Audio/coin.wav" type="audio/wav" preload="auto"></audio>
-    <audio id="fx1up" src="Audio/1up.wav" type="audio/wav" preload="auto"></audio>
+    <audio id="fxstart" src="audio/start.wav" type="audio/wav" preload="auto"></audio>
+    <audio id="bgm" src="audio/bgm.wav" type="audio/wav" preload="auto" loop></audio>
+    <audio id="fxpick" src="audio/pick.wav" type="audio/wav" preload="auto"></audio>
+    <audio id="fxmatch" src="audio/match.wav" type="audio/wav" preload="auto"></audio>
+    <audio id="fxnomatch" src="audio/no_match.wav" type="audio/wav" preload="auto"></audio>
+    <audio id="fxcoin" src="audio/coin.wav" type="audio/wav" preload="auto"></audio>
+    <audio id="fx1up" src="audio/1up.wav" type="audio/wav" preload="auto"></audio>
     <button id="bgmbutton" onclick="toggleBGM()"></button>
     <button id="fxbutton" onclick="toggleFx()"></button>
   </body>
-  <script src="script.js"></script>
+  <script src="scripts/main.js"></script>
 </html>
